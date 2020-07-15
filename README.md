@@ -141,8 +141,34 @@ Regular expressions are used to perform pattern-matching and "search-and-replace
 
 
 
+-----------
 
+# Examples
+
+#### NOT
+
+```
+  let str = "Hello hi!";
+  let patt1 = /[^h]/g;
+  let result = str.match(patt1);
+
+```
+
+```
+H,e,l,l,o, ,i,!
+```
 
 -----------
+
+```
+  let str = "Hello hi!";
+  let patt2 = /[^h]/gi;
+  let result = str.match(patt2);
+
+```
+
+```
+e,l,l,o, ,i,!
+```
 
 -----------
