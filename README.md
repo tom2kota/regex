@@ -20,11 +20,13 @@ Regular expressions are used to perform pattern-matching and "search-and-replace
 
 ## Modifiers
 
-**g** 	  Perform a global match (find all matches rather than stopping after the first match)
+ ------------- |:-------------:| -----:
 
-**i** 	  Perform case-insensitive matching
+ **g** |    Perform a global match (find all matches rather than stopping after the first match) | z
 
-**m** 	  Perform multiline matching
+ **i** |    Perform case-insensitive matching | z
+
+ **m** |    Perform multiline matching | z
 
 
 -----------
