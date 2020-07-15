@@ -77,7 +77,7 @@ Value | Description
 **n*** |Matches any string that contains zero or more occurrences of *n*
 **n?** |Matches any string that contains zero or one occurrences of *n*
 **n{X}** |Matches any string that contains a sequence of X *n*'s
-***n{X,Y}** |Matches any string that contains a sequence of X to Y *n*'s
+**n{X,Y}** |Matches any string that contains a sequence of X to Y *n*'s
 **n{X,}** |Matches any string that contains a sequence of at least X *n*'s
 **n$** |Matches any string with n at the end of it
 **^n** |Matches any string with n at the beginning of it
