@@ -20,7 +20,11 @@ Regular expressions are used to perform pattern-matching and "search-and-replace
 
 ## Modifiers
 
- ------------- |:-------------:| -----:
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 
  **g** |    Perform a global match (find all matches rather than stopping after the first match) | z
 
